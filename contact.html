@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+
+    <style>
+        /* Form Styling */
+        form {
+            display: block;
+            margin: 40px auto; /* Added top and bottom margin */
+            width: 80%;
+            max-width: 500px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-sizing: border-box; /* Ensure padding is included in width */
+        }
+        form:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+        }
+        form input {
+            width: calc(100% - 40px); /* Adjust width to account for padding */
+            padding: 15px 20px; /* Padding for input fields */
+            margin: 15px 0;
+            border: 2px solid #E6D3B1;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            background-color: #f9f9f9;
+            color: #333;
+            box-sizing: border-box; /* Ensure padding is included in width */
+        }
+        form input:focus {
+            border-color: #D4B98A;
+            outline: none;
+            box-shadow: 0 0 12px rgba(230, 211, 177, 0.8);
+            background-color: #fff;
+        }
+        form input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
+        form input[type="submit"] {
+            background: linear-gradient(135deg, #E6D3B1, #D4B98A);
+            color: #333;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 16px;
+            transition: background 0.3s ease, transform 0.3s ease;
+            width: 100%; /* Full width for submit button */
+        }
+        form input[type="submit"]:hover {
+            background: linear-gradient(135deg, #D4B98A, #E6D3B1);
+            transform: scale(1.05);
+        }
+        form input[type="submit"]:active {
+            transform: scale(0.95);
+        }
+        #mc_embed_signup {
+            margin: 0 auto;
+            width: 80%;
+            max-width: 600px;
+            display: block;
+            position: relative;
+            left: 50px; /* Moves the container 20px to the right */
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div style="background-color:#E6D3B1;">
+    <header>
+        <img src="Black_And_White_Modern_Typographic_Simple_Virus_Apparel_Logo-removebg-preview.png" alt="Logo" class="logo">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button class="OTC" onclick="window.location.href='contact.html';">Contact</button>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Aboutpage">
+        <h1>Contact</h1>
+    </div>
+    <br>
+</div>
+<br>
+<!-- Mailchimp Signup Form -->
+<div id="mc_embed_signup" style="margin-bottom: 50px; margin-top: 40px;">
+    <form action="https://gmail.us15.list-manage.com/subscribe/post?u=a389b2e2af17c288e95daee91&amp;id=50e04b1d1d&amp;f_id=001d97e0f0"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <div id="mc_embed_signup_scroll">
+            <h2>Contact Form</h2>
+            <div class="mc-field-group">
+                <label for="mce-FNAME">Name <span class="asterisk">*</span></label>
+                <input type="text" name="FNAME" class="required text" id="mce-FNAME" required>
+            </div>
+            <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required>
+            </div>
+            <div class="mc-field-group">
+                <label for="mce-PHONE">Phone Number</label>
+                <input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE">
+            </div>
+            <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display: none;"></div>
+                <div class="response" id="mce-success-response" style="display: none;"></div>
+            </div>
+            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                <input type="text" name="b_a389b2e2af17c288e95daee91_50e04b1d1d" tabindex="-1" value="">
+            </div>
+            <div class="clear foot">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Submit">
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+<script type="text/javascript">
+    (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[1]='FNAME';
+        ftypes[1]='text';
+        fnames[0]='EMAIL';
+        ftypes[0]='email';
+        fnames[4]='PHONE';
+        ftypes[4]='phone';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+</script>
+
+<footer class="footer" style="background-color: #E6D3B1;">
+    <div class="footer-container">
+        <p>&copy; 2025 ARFOLIO</p>
+        <div class="hero2">
+            <a href="mailto:gantaakhilreddy@gmail.com" >  <i class="fa fa-envelope" id="icons" style="margin-left: 850px;"></i></a>
+            <a href="https://www.linkedin.com/in/akhilreddyganta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" >  <i class="fa fa-linkedin" id="icons" style="margin-left: 50px;"></i></a>
+            <a href="https://www.instagram.com/gantaakhilreddy?igsh=bmdtZzh5dXdqa24x" >  <i class="fa fa-instagram" id="icons" style="margin-left: 50px;"></i></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
